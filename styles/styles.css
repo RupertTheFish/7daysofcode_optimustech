@@ -1,0 +1,71 @@
+/* Importando fontes do projeto */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+/* Criando variáveis de cores e fontes como boa prática de código. */
+
+:root{
+    --cor-primaria: #667085;
+    --cor-secundaria: #101828;
+    --cor-terciaria: #8E2424;
+    --cor-fundo: #ffffff;
+
+    --fonte-primaria: 'Inter';
+    --fonte-secundaria: '' ;
+}
+
+/* Resetando parâmentros básicos CSS para ter maior controle sobre o design da página. */
+
+*{
+    padding: 0;
+    margin: 0;
+    border: none;
+    outline: none;
+}
+
+/* Definindo as características gerais da página através do body */
+
+body{
+    box-sizing: border-box;
+    background-color: var(--cor-fundo);
+    color: var(--cor-primaria);
+    font-family: var(--fonte-primaria);
+}
+
+.navbar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 1rem ;
+
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1.25% 5.5%;
+    padding: .5rem 2rem;
+}
+
+.navbar__list__item{
+    text-decoration: none;
+    margin-right: 2rem;
+    color: var(--cor-primaria);
+}   
+
+.menu__signin a{
+    text-decoration: none;
+    padding: .625rem 1.25rem;
+}
+
+.menu__button__signin{
+    color: var(--cor-primaria);
+}
+
+.menu__button__signup{
+    background-color: var(--cor-terciaria);
+    border-radius: .5rem;
+    color: var(--cor-fundo);
+}
