@@ -7,7 +7,7 @@ Projeto em andamento, sendo realizado por mim durante o #7DaysOfCode da Alura, d
 
 "Durante os 7 Days de HTML e CSS, você vai praticar a essência do Front-end. Você vai usar todo o seu conhecimento de HTML e CSS para desenvolver uma página real a partir de um layout no Figma, algo que você certamente terá que fazer no seu dia-a-dia no mercado. Você usará conceitos básicos como 'div', 'section', inline para imagens, medidas responsivas em CSS, além de coisas mais avançadas como Flexbox, Grid e muitos outros, coisas que qualquer pessoa entrando na área de Front-end precisa conhecer. Depois de praticar por 7 dias seguidos esses conceitos, você verá que lembrar a sintaxe de cada tag e para que serve cada uma deixará de ser uma dificuldade e você conseguirá se preocupar mais em como resolver os problemas."
 
-## 🔨 Funcionalidades do projeto
+## 🔨 Desafios do projeto
 
 - `Dia 1`: Já no primeiro dia, você vai ser apresentado com o layout de uma página no Figma, analisá-lo e usá-lo para criar o cabeçalho da sua página, que contém um logo, links para outras páginas e alguns botões.
 
