@@ -33,3 +33,4 @@ Projeto em andamento, sendo realizado por mim durante o #7DaysOfCode da Alura, d
 
 ## 📁 Acesso ao projeto
 Você pode acessar os arquivos do projeto clicando [aqui](https://github.com/RupertTheFish/7daysofcode_optimustech).
+

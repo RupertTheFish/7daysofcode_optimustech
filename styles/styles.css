@@ -35,8 +35,8 @@ body{
 .navbar{
     display: flex;
     font-size: 1rem ;
-
 }
+
 
 .navbar{
     display: flex;
@@ -52,6 +52,10 @@ body{
     color: var(--cor-primaria);
 }   
 
+.menu__signin{
+    margin-left: 26%;
+}
+
 .menu__signin a{
     text-decoration: none;
     padding: .625rem 1.25rem;
@@ -65,4 +69,54 @@ body{
     background-color: var(--cor-terciaria);
     border-radius: .5rem;
     color: var(--cor-fundo);
+}
+
+/* Adcionar funcionalidades hover ao clique */
+
+.menu__button__signup:hover{
+    background-color: var(--cor-fundo);
+    color: var(--cor-terciaria);
+    border: .1rem solid #8E2424;
+    padding: .525rem 1.15rem;
+}
+
+.menu__button__signin:hover{
+    background-color: var(--cor-fundo);
+    color: var(--cor-terciaria);
+}
+
+.navbar__list__item:hover{
+    color: var(--cor-terciaria);
+}
+
+.about{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+span{
+    margin-top: 96px;
+    font-size: 1rem;
+    color: var(--cor-terciaria);
+    font-weight: 600;
+    text-align: center;
+}
+
+.about__content{
+    margin-top: 1.5rem;
+    text-align: center;
+}
+
+.about__content__title{
+    font-size: 3rem;
+    color: var(--cor-secundaria);
+    margin-bottom: 1.5rem;
+}
+
+.about__content__text{
+    font-weight: 400;
+    font-size: 1.25rem;
+    text-align: center;
 }
