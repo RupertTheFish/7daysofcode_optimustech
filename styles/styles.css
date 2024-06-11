@@ -10,6 +10,7 @@
     --cor-terciaria: #8e2424;
     --cor-fundo: #ffffff;
     --cor-fundo-semitransparente:rgb(142,36,36,0.05);
+    --cor-borda: #EAECF0;
 
     --fonte-primaria: 'Inter';
     --fonte-secundaria: '' ;
@@ -184,5 +185,39 @@ span{
 
 .talents__img{
     justify-content: center;
+}
+
+.open__jobs{
+    margin: 0 20%;
+}
+
+.job__area{
+    color: var(--cor-secundaria);
+    font-weight: 700;
+    font-size: 1.25rem;
+}
+
+.position__title{
+    color: var(--cor-secundaria);
+    font-size: 1.125rem;
+    font-weight: 600;
     
+}
+
+.position__infos span{
+    color: var(--cor-primaria);
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.job__post{
+    margin: 1.5rem 0;
+    border: 1px solid var(--cor-borda);
+    border-radius: 1rem;
+    gap: 2rem;   
+    padding: 1.5rem ;
+}
+
+.job__post span{
+    margin: 0 0 2rem 0;
 }
