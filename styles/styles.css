@@ -7,8 +7,9 @@
 :root{
     --cor-primaria: #667085;
     --cor-secundaria: #101828;
-    --cor-terciaria: #8E2424;
+    --cor-terciaria: #8e2424;
     --cor-fundo: #ffffff;
+    --cor-fundo-semitransparente:rgb(142,36,36,0.05);
 
     --fonte-primaria: 'Inter';
     --fonte-secundaria: '' ;
@@ -89,10 +90,11 @@ body{
     color: var(--cor-terciaria);
 }
 
-.about{
+.about,
+.hiring{
     display: flex;
     flex-direction: column;
-    
+    margin-bottom: 6%;
 }
 
 
@@ -119,4 +121,68 @@ span{
     font-weight: 400;
     font-size: 1.25rem;
     text-align: center;
+}
+
+.container__metrics{
+    display: flex; 
+    justify-content: space-between;
+    margin: 0 5.5% 6% 5.5%;
+    gap: 2rem;
+    padding: 0 2rem;
+
+}
+
+.container__metrics__item{
+    max-width: 280px;
+    max-height: 192px;
+}
+
+.container__metrics__number{
+    font-size: 3.75rem;
+    align-items: flex-start;
+    color: var(--cor-terciaria);
+}
+
+.container__metrics__text{
+    font-size: 1.125rem;
+    font-weight: 700;
+}
+
+.container__metrics__supporting__text{
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.hiring{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.hiring__call{
+    background-color: var(--cor-fundo-semitransparente);
+    display: block;
+    padding: 0.25rem 0.75rem;
+    border-radius: 0.8rem;   
+}
+
+.talents__title{
+    color: var(--cor-secundaria);
+    font-size: 2.25rem;
+    font-weight: 700;
+    margin-bottom: 1.25rem;
+    margin-top: 1rem;
+}
+
+.talents__text{
+    font-size:1.25rem;
+    font-weight: 400;
+    margin-bottom: 10.75rem;
+    
+}
+
+.talents__img{
+    justify-content: center;
+    
 }
